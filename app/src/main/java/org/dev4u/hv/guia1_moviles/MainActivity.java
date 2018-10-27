@@ -25,8 +25,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.hide();
+
+        setTitle("RR15-I04-001");
+
 
         //inicializando controles
         lblEntrada      = (TextView) findViewById(R.id.lblEntrada);

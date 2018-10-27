@@ -13,6 +13,9 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity {
 
     //creacion de las variables
+
+
+    
     private TextView lblEntrada;
     private TextView lblResultado;
     private ArrayList<Button> lstNumeros;
